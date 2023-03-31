@@ -1,5 +1,5 @@
-/* This is a stub for the Cafe class */
 public class Cafe extends Building {
+
     private int nCoffeeOunces; 
     private int nSugarPackets; 
     private int nCreams; 
@@ -29,6 +29,10 @@ public class Cafe extends Building {
         this.nSugarPackets += nSugarPackets;
         this.nCreams += nCreams;
         this.nCups += nCups;
+    }
+
+    public static void main(String [] args){
+        new Cafe("compass", "neilson", 3);
     }
 
 
